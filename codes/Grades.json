@@ -1,0 +1,46 @@
+[
+    {
+        "Number": 2,
+        "Score": 5.5
+    },
+    {
+        "Number": 1,
+        "Score": -1
+    },
+    {
+        "Number": 3,
+        "Score": 2.5
+    },
+    {
+        "Number": 4,
+        "Score": 22
+    },
+    {
+        "Number": 5,
+        "Score": 18
+    },
+    {
+        "Number": 6,
+        "Score": 4
+    },
+    {
+        "Number": 7,
+        "Score": 7
+    },
+    {
+        "Number": 10,
+        "Score": 13
+    },
+    {
+        "Number": 11,
+        "Score": 17
+    },
+    {
+        "Number": 8,
+        "Score": 16
+    },
+    {
+        "Number": 16,
+        "Score": 23
+    }
+]

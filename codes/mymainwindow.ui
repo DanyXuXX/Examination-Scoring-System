@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyMainWindow</class>
+ <widget class="QMainWindow" name="MyMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>571</width>
+    <height>457</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MyMainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton_NewPaper">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>360</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>判新卷</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Number">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>学号：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_TotalScore">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>50</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>总分：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_DetailScore">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>输入各项得分:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_DocName">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>290</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>文件名：</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_TotalScore">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>360</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>计算总分</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_FinishPaper">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>360</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>本卷判毕</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_Number">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>50</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_TotalScore">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>50</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Change">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>改错题：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Programme">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>170</y>
+      <width>72</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>程序题：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_DocName">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>290</y>
+      <width>421</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_OpenChange">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>220</y>
+      <width>121</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>打开改错题文件</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_OpenProgramme">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>220</y>
+      <width>121</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>打开程序题文件</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>120</y>
+      <width>451</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLineEdit" name="lineEdit_Change1"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_Change2"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_Change3"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_Change4"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLineEdit" name="lineEdit_Programme1"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_Programme2"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_Programme3"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_Programme4"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>571</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_paper">
+    <property name="title">
+     <string>试题</string>
+    </property>
+    <widget class="QMenu" name="menu_see">
+     <property name="title">
+      <string>查看试题</string>
+     </property>
+     <addaction name="action_SeeChange"/>
+     <addaction name="action_SeeProgramme"/>
+    </widget>
+    <widget class="QMenu" name="menu">
+     <property name="title">
+      <string>更改试题</string>
+     </property>
+     <addaction name="action_change"/>
+     <addaction name="action_programme"/>
+    </widget>
+    <addaction name="menu_see"/>
+    <addaction name="menu"/>
+   </widget>
+   <addaction name="menu_paper"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionopen">
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="action1">
+   <property name="text">
+    <string>改错题</string>
+   </property>
+  </action>
+  <action name="action2">
+   <property name="text">
+    <string>编程题</string>
+   </property>
+  </action>
+  <action name="action3">
+   <property name="text">
+    <string>改错题</string>
+   </property>
+  </action>
+  <action name="action4">
+   <property name="text">
+    <string>编程题</string>
+   </property>
+  </action>
+  <action name="action_SeeChange">
+   <property name="text">
+    <string>改错题</string>
+   </property>
+  </action>
+  <action name="action_SeeProgramme">
+   <property name="text">
+    <string>编程题</string>
+   </property>
+  </action>
+  <action name="action_change">
+   <property name="text">
+    <string>改错题</string>
+   </property>
+  </action>
+  <action name="action_programme">
+   <property name="text">
+    <string>编程题</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
